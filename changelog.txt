@@ -1,0 +1,37 @@
+July 18, 2023
+1. The name of the file in /download/GEHM/FinalDataset/20220916/OriginalAudio should be changed from 20220610.m4a to 20220916.mp4. 
+2. The name of the file in /download/GEHM/FinalDataset/20230310/OriginalAudio should be changed from 20221209.m4a to 20230310.mp4.
+3. The MeetingsOverview file should be replaced with the one I’m attaching.
+
+August 3, 2023
+The attachment contains the new TextGrids. They have a new name reflecting the fact that they are in the long Praat format, and the start time point is 0 for all of them.
+We agreed not to change the words for which start and end are -1. These are due to uncertainty of the WhisperAI software. They ought to be corrected manually, for instance using Praat, if we want to correct them. This information, however, must be added to a readme file somewhere, or maybe to the overview file.
+We also agreed that you would change the names of two audio files (for meetings 20220916 and 20230310) as well as convert the original audio files that are not in .wav format to that format.
+
+The audio files in which the format will be changed are the ones from the following meetings (both the original audio and also the individual audio files).
+The change will be done using the ffmpeg software, giving each file as input and producing a wav file directly.
+20220722,20220916,20221209,20230310
+The m4a/mp4 files will be kept, just in case
+
+September 27
+Extract the new textgrids (emailed on September 20) and put them in the right folders
+Update file 20210616/SeparatedSpeakersAudio/20210616-SP02F (Audio file had some error that did not allow WhisperX to transcribe its audio)
+
+October 2
+Extracted keypoints from the participants at the following meetings:
+ Participant SP03M at meeting 20220204
+ Participant SP09M at meeting 20220408
+ Participant SP06M at meeting 20230310
+Copied to the main repository
+Note: 20220408-SP07F and 20220408SP12M were thought to be missing, but their keypoints were actually present, therefore, nothing had to be changed
+
+October 31
+Correct file names in which the speaker name is not correct
+ 20210323/SeparatedSpeakersVideo/
+ 20210504/SeparatedSpeakersVideo/
+
+June 6, 2024
+Created two separate directories. One contains the video and audio contents of the corpus. The other contains both the Praat information and the Openpose information.
+Both directories have the same exact structure, with the same directory names, based on the meeting date.
+The video and audio folder will be uploaded to archive.org.
+The Praat and Openpose content will be uploaded to Github, together with this file, the TODO file and the meeting overview file (spreadsheet).

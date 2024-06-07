@@ -1,0 +1,14 @@
+File,MeetingType,Participants,No of speakers,GotDisconnected,SharedScreen,Duration (min),PostrecordingSpeakerDiarisation
+20210323,Steering,"SP01F, SP03M, SP07F, SP06M, SP11M (on the phone)",5,,no,21.44,manually separated
+20210504,Subgroup,"SP01F, SP04F, SP08M, SP09M, SP10F (joins at 4.29)",5,,no,12.02,manually separated
+20210616,Steering,"SP01F, SP02F, SP05F, SP06M, SP03M, SP04F",6,"SP01F (21.16-21.36, 21.51-22.48, moves to last frame, 25.54-30.46, 31.30-32.57, 37.12-48.02)",no,51.33,manually separated
+20211007,Steering,"SP01F, SP05F, SP07F, SP04F, SP03M",5,SP05F (55.41-58.34),no,58.34,manually separated
+20211119,Steering,"SP01F, SP05F, SP04F, SP03M, SP02F, SP07F",6,,no,25.46,manually separated
+20220204,Steering,"SP03M, SP01F, SP05F, SP04F, SP07F, SP02F",6,,yes (38.19-39.30),47.4,pre-separated
+20220408,Steering,"SP05F, SP01F, SP02F, SP03M, SP04F, SP06M, SP07F, SP09M, SP12M",9,SP12M comes in while the screen is being shared,yes (13.30-53.21),53.21,pre-separated
+20220610,Steering,"SP02F, SP01F, SP03M, SP07F, SP04F",5,,no,37.23,pre-separated
+20220722,Steering,"SP02F, SP01F, SP07F, SP05F, SP04F",5,SP04F comes in at 0.26. SP02F leaves at 27.43,"yes (13.11-20.21, and 21.16-22.06 and 22.26-23.08 and 25.23-27.22 and 28.48-38.03 and 50.07-54.52)",64.58,pre-separated
+20220916,Steering,"SP05F, SP01F, SP03M, SP04F, SP07F",5,,no,15.22,pre-separated
+20221209,Steering,"SP05F, SP01F, SP07F, SP03M, SP06M, SP02F, SP04F, SP09M",8,SP09M joins at 0.32,yes (0.21-0.41),61.23,pre-separated
+20230310,Steering,"SP04F, SP01F, SP05F, SP02F, SP07F, SP03M, SP06M",7,,no,27.37,pre-separated
+Total,,,,,,474.83,
